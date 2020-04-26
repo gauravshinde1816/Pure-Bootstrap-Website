@@ -1,0 +1,69 @@
+.background{
+    
+  
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1587197446568-23587beb4fa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+hr{
+    background-color: white;
+}
+
+.fas{
+    font-size: 125px;
+    
+    padding: 10px;
+}
+.content{
+    border: solid 2px black;
+    box-shadow: 2px 5px 15px #7777;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    padding: 20px;
+    margin-bottom: 3px;
+  
+   
+}
+.content:hover{
+    transform: translate(-5px , 7px);
+    box-shadow: 5px 10px 20px;
+}
+h3{
+    color:yellowgreen
+}
+.title:first-letter{
+    font-family: 'Great Vibes', cursive;
+    font-size: 85px;
+    padding: 10px;
+    
+    
+
+}
+.title{
+
+    transition: all 0.5s ease;
+    display: inline-block;
+    padding: 5px;
+}
+.title:hover{
+    transform: translate(-5px , 7px);
+    text-shadow: 2px 5px 10px #7777;
+    text-decoration: underline;
+}
+
+/* branch of hotel */
+.btn{
+    transition: all 0.5s ease-in;
+    backface-visibility: hidden;
+}
+.card{
+    position: relative;
+    transition: all 0.5s ;
+    box-shadow: 2px 5px 10px #7777;
+}
+
+
+
